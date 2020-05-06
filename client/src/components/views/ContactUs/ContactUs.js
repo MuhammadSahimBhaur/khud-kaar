@@ -55,69 +55,71 @@ const ContactUs = (props) => {
   };
 
   return (
-    <div style={{ width: '85%', margin: '3rem auto' }}>
-      <form className='test-mailing'>
-        <div
-          style={{
-            width: '100%',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-          }}
-        >
-          <h3>Contact Us</h3>
-          <label htmlFor='fname'>
-            <i className='fa fa-user'></i> Full Name
-          </label>
-          <input
-            onChange={handleChange}
-            type='text'
-            id='fname'
-            name='firstname'
-            placeholder='John M. Doe'
-            value={name}
-          />
-          <label htmlFor='email'>
-            <i className='fa fa-envelope'></i> Email
-          </label>
-          <input
-            onChange={handleChange}
-            type='text'
-            id='email'
-            name='email'
-            placeholder='john@example.com'
-            value={email}
-          />
-          <label htmlFor='adr'>
-            <i className='fa fa-address-card-o'></i> Subject
-          </label>
-          <input
-            onChange={handleChange}
-            type='text'
-            id='adr'
-            name='subject'
-            placeholder='Subject'
-            value={subject}
-          />
-          <label htmlFor='city'>
-            <i className='fa fa-institution'></i> Body
-          </label>
-          <textarea
-            onChange={handleChange}
-            type='text'
-            id='city'
-            name='body'
-            placeholder='Message Body'
-            value={body}
-          />
-        </div>
-      </form>
-      <br />
-      <br />
-      <Button size='large' shape='round' type='success' onClick={handleSubmit}>
-        Submit
-      </Button>
-    </div>
+    // <div style={{ width: '85%', margin: '3rem auto' }}>
+    //   <form className='test-mailing'>
+    //     <div
+    //       style={{
+    //         width: '100%',
+    //         display: 'flex',
+    //         flexDirection: 'column',
+    //         justifyContent: 'center',
+    //       }}
+    //     >
+    //       <h3>Contact Us</h3>
+    //       <label htmlFor='fname'>
+    //         <i className='fa fa-user'></i> Full Name
+    //       </label>
+    //       <input
+    //         onChange={handleChange}
+    //         type='text'
+    //         id='fname'
+    //         name='firstname'
+    //         placeholder='John M. Doe'
+    //         value={name}
+    //       />
+    //       <label htmlFor='email'>
+    //         <i className='fa fa-envelope'></i> Email
+    //       </label>
+    //       <input
+    //         onChange={handleChange}
+    //         type='text'
+    //         id='email'
+    //         name='email'
+    //         placeholder='john@example.com'
+    //         value={email}
+    //       />
+    //       <label htmlFor='adr'>
+    //         <i className='fa fa-address-card-o'></i> Subject
+    //       </label>
+    //       <input
+    //         onChange={handleChange}
+    //         type='text'
+    //         id='adr'
+    //         name='subject'
+    //         placeholder='Subject'
+    //         value={subject}
+    //       />
+    //       <label htmlFor='city'>
+    //         <i className='fa fa-institution'></i> Body
+    //       </label>
+    //       <textarea
+    //         onChange={handleChange}
+    //         type='text'
+    //         id='city'
+    //         name='body'
+    //         placeholder='Message Body'
+    //         value={body}
+    //       />
+    //     </div>
+    //   </form>
+    //   <br />
+    //   <br />
+    //   <Button size='large' shape='round' type='success' onClick={handleSubmit}>
+    //     Submit
+    //   </Button>
+    // </div>
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVYkznGO1nJoWtt4ZLImJ7E6Fqn3NonUoWl4Akr-NJrLhcbA/viewform?embedded=true" width="640" height="813" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   );
 };
 
