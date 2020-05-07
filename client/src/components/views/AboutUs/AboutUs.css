@@ -1,0 +1,5 @@
+.founders {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 200px;
+}

@@ -1,12 +1,17 @@
 import React from 'react';
+import w from './Screenshot (4).png';
+import g from './Screenshot (6).png';
+import b from './Screenshot (7).png';
+import "./AboutUs.css"
 
 const AboutUs = () => {
   return (
+    <div>
     <div style={{ margin: '40px' }}>
       <br />
       <br />
 
-      <h2>About Khudkaar</h2>
+      <h1>About Khudkaar</h1>
       <p>
         {' '}
         Khud Kaar is a social enterprise working to create employment
@@ -65,7 +70,21 @@ const AboutUs = () => {
           and earn a reasonable amount.
         </p>
       </p>
+
+          <br/>
+          <br/>
+
+      <h1>Our Founders:</h1>
+      
     </div>
+    <div className="founders"> 
+    <img className="profile" src={w} alt='' />
+    <img className="profile" src={b} alt='' />
+    <img className="profile" src={g} alt='' />
+    </div>
+    </div>
+   
+
   );
 };
 
