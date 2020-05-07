@@ -2,4 +2,29 @@
     display: flex;
     justify-content: space-evenly;
     flex-basis: 200px;
+
 }
+
+
+.Intro p{
+margin-left: 20px;
+color: rgb(42, 42, 42);
+}
+
+.Intro{
+    font-size: 1.1em;
+}
+
+@media (max-width: 767px) {
+    .founders{
+        display: flex;
+        justify-content: none;
+        flex-basis: 0px;
+        flex-direction: column;
+    }
+
+    .founders img{
+        padding:0px 20px;
+    }
+    
+  }

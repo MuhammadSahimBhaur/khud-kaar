@@ -1,17 +1,19 @@
 import React from 'react';
 import w from './Screenshot (4).png';
 import g from './Screenshot (6).png';
-import b from './Screenshot (7).png';
+import b from './Screenshot (7).png'; 
 import "./AboutUs.css"
 
 const AboutUs = () => {
   return (
     <div>
-    <div style={{ margin: '40px' }}>
+    <div  style={{ marginLeft: '50px', marginRight:'50px' }}>
       <br />
       <br />
-
       <h1>About Khudkaar</h1>
+      <div className="Intro">
+
+      
       <p>
         {' '}
         Khud Kaar is a social enterprise working to create employment
@@ -21,25 +23,7 @@ const AboutUs = () => {
         hostelite students. Its aim is to enable women to sell their home-made
         products such as hygienic food, beautiful art work and amazing
         handicrafts, and to allow students to get all these products at
-        affordable prices. Our system would have a single admin site, where our
-        only vendor would be able to upload products of the clients who have
-        contacted the vendor. Admin would also be able to upload the success
-        stories, upcoming events, the new projects, links to video lectures (for
-        training purposes) on the web site. Next comes our customers, who can
-        either go, search, choose and select the required product or go for
-        other services using the navigation bars on our home page. We have
-        different categories and tags for our products e.g. breakfast, lunch,
-        dinner, desserts, food of the day, most liked dish, pants, shirts,
-        paintings, greeting cards and so on. Customers will get the complete
-        details of the product by just clicking on the specific product. We will
-        also have the review section for our products where our customers can
-        give us feedback related to our products and services. When the
-        customers confirm their order, they would provide their details like
-        their full name, contact number, complete home address and email address
-        to our vendor which then proceeds the order. There is no online payment
-        option yet, so our customers will pay through cash on delivery. The
-        amount received would then be distributed by the vendor to seller and
-        delivery person.
+        affordable prices. 
       </p>
       <p>
         {' '}
@@ -70,21 +54,22 @@ const AboutUs = () => {
           and earn a reasonable amount.
         </p>
       </p>
-
+      </div>
           <br/>
           <br/>
 
-      <h1>Our Founders:</h1>
       
-    </div>
+      
+    </div >
+    <h1 style={{ margin: '40px' }}>Our Founders:</h1>
     <div className="founders"> 
-    <img className="profile" src={w} alt='' />
-    <img className="profile" src={b} alt='' />
-    <img className="profile" src={g} alt='' />
+      
+        <img className="profile" src={w} alt='' />
+        <img className="profile" src={b} alt='' />
+        <img className="profile" src={g} alt='' />
     </div>
     </div>
    
-
   );
 };
 
