@@ -138,8 +138,9 @@ function LandingPage() {
 
   return (
     <div>
+      <div className="mobile">
      <img className="image" src={b} alt='' />
-
+     </div>
     <div style={{ width: '75%', margin: '3rem auto' }}>
       {/* <div style={{ textAlign: 'center', paddingTop: '30px' }}> */}
       <div style={{ textAlign: 'center' }}>
