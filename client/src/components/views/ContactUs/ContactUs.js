@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Result, Empty, Button } from 'antd';
+import "./ContactUs.css";
 
 const ContactUs = (props) => {
   const [feedback, setFeedback] = useState('');
@@ -118,8 +119,9 @@ const ContactUs = (props) => {
     //     Submit
     //   </Button>
     // </div>
-
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVYkznGO1nJoWtt4ZLImJ7E6Fqn3NonUoWl4Akr-NJrLhcbA/viewform?embedded=true" width="640" height="813" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <div className="form">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVYkznGO1nJoWtt4ZLImJ7E6Fqn3NonUoWl4Akr-NJrLhcbA/viewform?embedded=true" width="1080" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
   );
 };
 
