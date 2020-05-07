@@ -1,4 +1,11 @@
 .form {
     display: flex;
-    padding-left: 400px;
+    /* padding-left: 400px; */
+    justify-content: center;
+    
+}
+
+.form iframe{
+    align-items: center;
+    justify-content: center;
 }
